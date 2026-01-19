@@ -32,6 +32,15 @@ This project utilizes the **ISOT Fake News Dataset**, which contains:
 - **True.csv**: Over 12,600 factual articles from Reuters.com.
 - **Fake.csv**: Over 12,600 articles flagged as misinformation by fact-checking organizations like Politifact.
 
+## 📂 Dataset Information
+Due to file size limitations (>25MB), the raw CSV files are not hosted directly in this repository. You can download the official **ISOT Fake News Dataset** from the following link:
+
+- **Download Link:** [ISOT Fake News Dataset (Kaggle)](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
+- **Files Required:** - `True.csv`: factual articles from Reuters.com.
+  - `Fake.csv`: articles flagged as misinformation.
+
+> **Note:** After downloading, please place both `.csv` files in the root directory of this project so the Jupyter Notebook can locate them.
+
 ## 📝 How to Run
 1. Clone this repository.
 2. Download `True.csv` and `Fake.csv` from Kaggle and place them in the project directory.
